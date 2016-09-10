@@ -1,4 +1,8 @@
 #!/usr/bin/env python
+# 
+# < Made by TrinTragula - dcat@protonmail.com >
+# ||| Always cruise in control. |||
+#
 import requests
 import socket
 import whois
@@ -68,7 +72,9 @@ def is_tor(ip):
 			return False
 
 def ip_score(ip):
-	contact_email = "pynfoscript@gmail.com"
+	######################################################
+	contact_email = "pynfoscript@gmail.com"  #MODIFY THIS#
+	######################################################
 	r = requests.get("http://check.getipintel.net/check.php?ip="+str(ip)+"&contact=" + contact_email + "&format=json&flags=f") #&flags=f
 	score = r.json()['result']
 	return score
