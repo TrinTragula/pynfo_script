@@ -15,3 +15,5 @@ python pynfo.py
 
 #Sample screen
 ![Sample screen](https://trintragulablog.files.wordpress.com/2016/09/schermata-da-2016-09-10-14-39-032.png "A sample redacted screen")
+
+Do what you want with this code, unless it gives me problems.
